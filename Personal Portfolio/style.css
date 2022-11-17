@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@media (max-width:690px) {
+  header {
+    font-size: 14px !important;
+      }
+h2 {
+  font-size: 12px !important;
+}
+.nav-link {
+  font-size: 10px !important;
+  margin-right: 0px !important;
+  padding-bottom: 7px !important;
+}
+p {
+    font-size: 10px;
+  }
+#nav-header {
+  margin-left: 4px !important;
+  margin-right: auto !important;
+  margin-top: 0 !important;
+  padding-bottom: 5px !important;
+  }
+#find-me {
+    font-size: 20px !important;
+  }
+.social a{
+    font-size: 25px !important;
+  }
+ul {
+  font-size: 20px !important;
+}
+}
+
+/*navbar*/
+body {
+  margin: 0;
+}
+nav {
+  position: fixed;
+  justify-content: flex-end;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+  font-family: play;
+  background-color: rgba(180, 50, 50, 1);
+  margin: 0;
+  
+}
+nav a{
+  color: white;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 10px;
+  border: 2px solid rgba(180, 50, 50, 0)
+    
+}
+#nav-header {
+  font-size: 18px;
+  display: block;
+  text-align: center;
+  padding-top: 15px;
+  margin: 4px;
+   }
+nav a:hover {
+    background-color: rgba(120, 10, 10, 0.8);
+    border: 2px solid rgba(150, 50, 50, 0.8)
+  }
+/*navbar*/
+#about {
+  display: block;
+  min-width: 230px;
+  max-width: 430px;
+  margin: 0 auto;
+    text-align: center;
+  border: 3px solid rgba(0, 0 , 0, 0.6);
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 20px;
+  color: white;
+}
+h1 {
+  font-family: play;
+  font-size: 28px !important;
+      }
+h2 {
+  font-family: play;
+  font-size: 20px !important;
+  text-align: center;
+}
+h3 {
+  font-family: play;
+  font-size: 15px !important;
+  text-align: center;
+}
+#welcome-section {
+  display: block;
+  background-image: url(https://arteemcurso.com/wp-content/uploads/2020/11/Depositphotos_209179682_m-2015kk.jpg);
+  height: 100%;
+  margin: 0;
+  padding: 50px;
+  background-size: cover;
+}
+#about {
+  padding: 10px;
+}
+#projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-image: url(https://ak.picdn.net/shutterstock/videos/16145977/thumb/1.jpg);
+  background-size: cover;
+}
+#project-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: cover;
+  margin: 30px;
+  margin-top: 10px !important;
+  justify-content: center;
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: auto;
+  margin: 10px;
+  border: 2px solid rgba(0,0,0,0);
+  
+}
+.project-tile {
+  height: 10%;
+  
+}
+.project-image {
+  height: 150px;
+  width: 90%;
+  margin: 10px;
+  border-radius: 5px;
+}
+#find-me {
+  background: rgba(180, 50, 50, 1);
+  background-size: cover;
+  color: white;
+  height: auto;
+  font-family: play;
+  font-size: 16px;
+  text-align: center;
+  padding: 1px;
+}
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+  padding: 0;
+  margin: 7px;
+}
+.social a{
+  color: white;
+  font-size: 25px;
+  margin: 10px 10px;
+ }
+ .social a:hover{
+  color: white;
+  font-size: 25px;
+  margin: 10px 10px;
+  animation-name: anime;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+ }
+@keyframes anime{
+  0% {
+    color: white;
+    font-size: 25px;
+  }
+  25% {
+    color: rgba(110,180,250);
+    font-size: 28px;
+  }
+  50% {
+    color: white;
+    font-size: 25px;
+  }
+  75% {
+    color: rgba(110,180,250);
+    font-size: 28px;
+  }
+   100% {
+    color: white;
+    font-size: 25px;
+   }
+
+}
