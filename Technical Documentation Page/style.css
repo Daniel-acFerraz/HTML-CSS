@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  font-family: Play;
+  }
+/* BARRA DE NAVEGAÇÃO*/
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(140, 10, 10, 0.8);
+  margin: 0;
+  max-width: 300px;
+  height: 100vh;
+  justify-content: start;
+  text-align: left;
+  border-right: 2px solid rgba(140, 10, 10, 0.8);
+  font-family: Play;
+    
+}
+#nav-header {
+  font-size: 23px;
+  font-weight: bold;
+  color: black;
+  margin: 10px;
+  margin-left: 0px !important;
+  padding: 5px;
+}
+nav a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  margin: 0px;;
+  padding: 15px;
+  border: 2px solid rgba(140, 10, 10, 0.0);
+    }
+nav a:hover {
+  background-color: rgba(30, 0, 0, 0.8);
+  border: 2px solid rgba(150, 0, 0, 0.8);
+  font-weight: bold;
+  }
+a: active {
+  background-color: rgba(80, 0, 0, 0.8);
+  border: 2px solid rgba(190, 10, 10, 0.0)
+}
+/* BARRA DE NAVEGAÇÃO*/
+main {
+  background-color: white;
+  flex: 1;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.main-section {
+   margin: 10px;
+   }
+header {
+  font-size: 20px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 16px;
+}
+code {
+  background-color: rgba(160, 160, 160, 0.5);
+}
+@media (max-width:400px) {
+  header {
+    font-size: 14px !important;
+      }
+h2 {
+  font-size: 12px !important;
+}
+.nav-link {
+  font-size: 10px !important;
+}
+* {
+    font-size: 10px !important;
+  }
